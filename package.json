@@ -7,8 +7,20 @@
     "email": "masayuki@izumin.info",
     "url": "https://github.com/izumin5210"
   },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/aws-lambda": "^0.0.14",
+    "@types/jest": "^20.0.2",
+    "@types/node": "^8.0.13",
+    "aws-sdk": "^2.84.0",
+    "jest": "^20.0.4",
+    "ts-jest": "^20.0.7",
+    "tslint": "^5.5.0",
+    "tslint-config-standard": "^6.0.1",
+    "typescript": "^2.4.1"
+  },
   "license": "MIT",
-  "main": "index.js",
+  "main": "dist/index.js",
   "private": true,
   "repository": "git@github.com:izumin5210/convert-books.git"
 }
