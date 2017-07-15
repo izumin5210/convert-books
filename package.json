@@ -22,5 +22,8 @@
   "license": "MIT",
   "main": "dist/index.js",
   "private": true,
-  "repository": "git@github.com:izumin5210/convert-books.git"
+  "repository": "git@github.com:izumin5210/convert-books.git",
+  "scripts": {
+    "test": "jest --config .jestrc.json"
+  }
 }
