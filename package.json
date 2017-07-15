@@ -11,9 +11,11 @@
   "devDependencies": {
     "@types/aws-lambda": "^0.0.14",
     "@types/jest": "^20.0.2",
+    "@types/mock-fs": "^3.6.30",
     "@types/node": "^8.0.13",
     "aws-sdk": "^2.84.0",
     "jest": "^20.0.4",
+    "mock-fs": "^4.4.1",
     "ts-jest": "^20.0.7",
     "tslint": "^5.5.0",
     "tslint-config-standard": "^6.0.1",
