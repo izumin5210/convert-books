@@ -26,6 +26,7 @@
   "private": true,
   "repository": "git@github.com:izumin5210/convert-books.git",
   "scripts": {
+    "build": "tsc",
     "test": "jest --config .jestrc.json"
   }
 }

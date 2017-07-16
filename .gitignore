@@ -60,4 +60,6 @@ typings/
 .env
 
 
+### misc ###
+dist
 
