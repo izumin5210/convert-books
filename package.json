@@ -27,6 +27,10 @@
   "repository": "git@github.com:izumin5210/convert-books.git",
   "scripts": {
     "build": "tsc",
+    "deploy": "aws cloudformation deploy --template-file ./packaged-template.yaml --stack-name ebook-converter --region ap-northeast-1 --capabilities CAPABILITY_IAM",
+    "download": "curl -L http://kindlegen.s3.amazonaws.com/kindlegen_linux_2.6_i386_v2_9.tar.gz | tar xz -C dist kindlegen",
+    "package": "aws cloudformation package --template-file ./template.yaml --s3-bucket ebook-converter-packages --output-template-file packaged-template.yaml",
+    "prepackage": "yarn build && yarn download",
     "test": "jest --config .jestrc.json"
   }
 }
